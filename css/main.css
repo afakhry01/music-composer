@@ -1,0 +1,30 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+}
+
+.keys{
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 3px solid #000000;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  color: white;
+  margin: 0 10px;
+}
+
+.sound{
+display: block;
+text-align: center;
+}
+
+kbd {
+  font-size: 30px;
+  padding: 30px;
+}
